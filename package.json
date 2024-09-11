@@ -1,0 +1,13 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "dx build --release",
+    "start": "dx serve --platform fullstack",
+    "tailwind": "npx tailwindcss -i ./input.css -o ./assets/tailwind.css --watch"
+  },
+  "author": "",
+  "license": "NONE"
+}
